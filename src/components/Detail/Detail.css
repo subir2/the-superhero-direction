@@ -5,3 +5,20 @@ h4{
     color:navy;
     font-weight: 800;
 }
+.person-img{
+    display: flex;
+    border:1px solid lightgrey;
+    background-color: whitesmoke;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding-left: 30px;
+    padding-top: 10px;
+    
+}
+.img12{
+    border-radius: 90%;
+    width: 25px;
+    height: 25px;
+    margin-left: 15px;
+
+}

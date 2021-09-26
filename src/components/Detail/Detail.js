@@ -22,7 +22,16 @@ const Detail = (props) => {
             <hr></hr>
             <h4>Added Person Name</h4>
             {
-                props.details.map(name=><p>{name.personName}</p>)
+                props.details.map(name=>
+            
+                <div className="person-img">
+                <p>{name.personName}</p>
+                <img className="img12" src={name.squareImage} alt="" srcset="" />
+               
+                </div>
+                    
+                   
+                    )
             }
         </div>
     );
