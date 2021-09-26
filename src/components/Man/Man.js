@@ -1,5 +1,7 @@
 import React from 'react';
 import'./Man.css';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faPersonBooth} from '@fortawesome/free-solid-svg-icons'
   import 'bootstrap/dist/css/bootstrap.min.css';
 import {
     Card, CardImg, CardBody,
@@ -10,6 +12,8 @@ const Man = (props) => {
    // console.log(props.man.thumbnail);
 
     //Destructuring 
+    const element = <FontAwesomeIcon icon={faPersonBooth} />
+    
     const{squareImage,personName,
         source,
         state,
@@ -22,7 +26,7 @@ const Man = (props) => {
         <div>
    
     <Card className="size">
-    <CardImg top width="100%" src={squareImage} alt="Card image cap" height="200px"  />
+    <CardImg className="img1" top width="100%" src={squareImage} alt="Card image cap" height="200px"  />
         <CardBody>
         <h6>{personName}</h6>
          <p>Institute:{source}</p>
@@ -31,7 +35,9 @@ const Man = (props) => {
          <p>Net worth:{networth} billion USD</p>
          <p>Rank:{rank}</p>
        
-          <Button onClick={()=>props.event(props.man)}>Details</Button>
+          <Button onClick={()=>props.event(props.man)}>{element} Details</Button>
+      
+
         </CardBody>
       </Card>
     

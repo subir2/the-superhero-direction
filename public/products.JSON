@@ -11,8 +11,6 @@
        "person":{
           "name":"Elon Musk",
           "uri":"elon-musk"
-      
-
        },
        "networth":199,
        "visible":true,
@@ -20,21 +18,10 @@
        "state":"Texas",
        "city":"Austin",
        "source":"Tesla, SpaceX",
-      "countryOfCitizenship":"United States",
-       "timestamp":1632587702819,
-       "version":734433,
-       "naturalId":"faris/35/0/14117",
-       "position":1,
-       "imageExists":true,
-       "gender":"M",
-       "birthDate":46915200000,
-       "lastName":"Musk",
-
-       
+       "gender":"Male",
        "thumbnail":"http://specials-images.forbesimg.com/imageserve/5f47d4de7637290765bce495/280x425.jpg?fit=scale&background=000000",
        "squareImage":"https://specials-images.forbesimg.com/imageserve/5f47d4de7637290765bce495/416x416.jpg?background=000000&cropX1=1699&cropX2=3845&cropY1=559&cropY2=2704",
  
-    
        "bios":[
           "Elon Musk is working to revolutionize transportation both on Earth, through electric car maker Tesla -- and in space, via rocket producer SpaceX.",
           "He owns 21% of Tesla but has pledged more than half his stake as collateral for loans; Forbes has discounted his stake to take the loans into account.",
@@ -50,12 +37,8 @@
     {
        "name":"Real-Time Billionaires",
        "year":0,
-       "uri":"jeff-bezos",
-       "bio":"",
        "key":2,
        "rank":2,
-       "listUri":"rtb",
-       "finalWorth":198660.91,
        "person":{
           "name":"Jeff Bezos",
           "squareImage":"https://specials-images.forbesimg.com/imageserve/5bb22ae84bbe6f67d2e82e05/416x416.jpg?background=000000&cropX1=627&cropX2=1639&cropY1=129&cropY2=1142"
@@ -66,9 +49,6 @@
        "state":"Washington",
        "city":"Seattle",
        "source":"Amazon",
-       "countryOfCitizenship":"United States",
-       "position":2,
-       "imageExists":true,
        "gender":"Male",
        "lastName":"Bezos",
       
@@ -92,18 +72,12 @@
     },
     {
        "name":"Real-Time Billionaires",
-       "year":0,
-       "uri":"bernard-arnault",
-       "bio":"",
+   
        "rank":3,
        "key":3,
        "state":"Roubaix, France",
-       "listUri":"rtb",
-       "finalWorth":181310.091,
        "person":{
           "name":"Bernard Arnault & family",
-          "uri":"bernard-arnault",
-          "imageExists":true,
           "squareImage":"//specials-images.forbesimg.com/imageserve/5dc05518ca425400079c659f/416x416.jpg?background=000000&cropX1=0&cropX2=4000&cropY1=1209&cropY2=5212"
        },
        "networth":181,
@@ -111,13 +85,9 @@
        "personName":"Bernard Arnault",
        "city":"Paris",
        "source":"LVMH Moët Hennessy",
-      
        "gender":"Male",
-
        "lastName":"Arnault",
-     
-      
-       "squareImage":"//specials-images.forbesimg.com/imageserve/5dc05518ca425400079c659f/416x416.jpg?background=000000&cropX1=0&cropX2=4000&cropY1=1209&cropY2=5212",
+        "squareImage":"//specials-images.forbesimg.com/imageserve/5dc05518ca425400079c659f/416x416.jpg?background=000000&cropX1=0&cropX2=4000&cropY1=1209&cropY2=5212",
        
     
        "bios":[

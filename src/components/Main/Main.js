@@ -17,8 +17,9 @@ useEffect(()=>{
 
 const event=(man)=>{
 
-    const newArr=[...details,man];
-    setDetails(newArr);
+    const newArr=[...details,man];           //set data new array from old array
+    let uniqueChars = [...new Set(newArr)]; //duplicate value remove from array 
+    setDetails(uniqueChars);
     
 }
 
