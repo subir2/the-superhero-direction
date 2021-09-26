@@ -2,8 +2,8 @@ import React from 'react';
 import'./Man.css';
   import 'bootstrap/dist/css/bootstrap.min.css';
 import {
-    Card, CardImg, CardText, CardBody,
-    CardTitle, CardSubtitle, Button,Row,Col, Container
+    Card, CardImg, CardBody,
+     Button
   } from 'reactstrap';
 
 const Man = (props) => {
@@ -14,6 +14,7 @@ const Man = (props) => {
         source,
         state,
         gender,
+        networth,
         rank }=props.man;
 
 
@@ -23,13 +24,14 @@ const Man = (props) => {
     <Card className="size">
     <CardImg top width="100%" src={squareImage} alt="Card image cap" height="200px"  />
         <CardBody>
-        <h1>{personName}</h1>
-         <p>{source}</p>
-         <p>{state}</p>
-         <p>{gender}</p>
-         <p>{rank}</p>
+        <h6>{personName}</h6>
+         <p>Institute:{source}</p>
+         <p>City:{state}</p>
+         <p>Gender:{gender}</p>
+         <p>Net worth:{networth} billion USD</p>
+         <p>Rank:{rank}</p>
        
-          <Button>Button</Button>
+          <Button onClick={()=>props.event(props.man)}>Details</Button>
         </CardBody>
       </Card>
     

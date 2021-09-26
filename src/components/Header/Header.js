@@ -4,7 +4,7 @@ import'./Header.css';
 const Header = () => {
     return (
         <div className="header">
-            <h1>Real-Time Billionaires</h1>
+           <marquee width="100%" direction="left" height="100px"><span>Real-Time Billionaires</span></marquee>
         </div>
     );
 };

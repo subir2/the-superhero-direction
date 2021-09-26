@@ -1,9 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import './Main.css';
 import Man from '../Man/Man';
+import Detail from '../Detail/Detail';
 
 const Main = () => {
 const[mans,setMan]=useState([]);
+const[details,setDetails]=useState([]);
+
 useEffect(()=>{
 
     fetch('./products.JSON')
@@ -12,6 +15,12 @@ useEffect(()=>{
 
 },[]);
 
+const event=(man)=>{
+
+    const newArr=[...details,man];
+    setDetails(newArr);
+    
+}
 
 
     return (
@@ -20,12 +29,21 @@ useEffect(()=>{
 
             <div className="man">
                {
-                   mans.map(man=><Man man={man}></Man>)
+                   mans.map(man=><Man 
+                    key={man.key}
+                   man={man}
+                   event={event}
+                   
+                   
+                   >
+
+
+                   </Man>)
                }
             </div>
 
             <div className="cart">
-              <h1>Cart</h1>
+              <Detail details={details}></Detail>
             </div>
             
         </div>
