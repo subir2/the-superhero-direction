@@ -11,15 +11,17 @@ import {
 const Man = (props) => {
    // console.log(props.man.thumbnail);
 
-    //Destructuring 
+   
     const element = <FontAwesomeIcon icon={faPersonBooth} />
     
+     //Destructuring 
     const{squareImage,personName,
         source,
         state,
         gender,
         networth,
         rank }=props.man;
+
 
 
     return (

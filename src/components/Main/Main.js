@@ -4,6 +4,7 @@ import Man from '../Man/Man';
 import Detail from '../Detail/Detail';
 
 const Main = () => {
+    
 const[mans,setMan]=useState([]);
 const[details,setDetails]=useState([]);
 
